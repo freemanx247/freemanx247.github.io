@@ -1,0 +1,82 @@
+/* Basic CSS for a navy blue background */
+body {
+    background-color: #001F3F; /* Navy Blue background */
+    color: #FFFFFF; /* White text for readability */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #003366; /* Darker blue for navigation background */
+    padding: 10px 20px;
+    border-bottom: 2px solid #004080; /* Slightly lighter blue for border */
+    width: 100%;
+    text-align: center;
+}
+
+nav a {
+    color: #87CEEB; /* Sky Blue for links */
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #E0FFFF; /* Light Cyan for hover effect */
+}
+
+/* Main content area */
+.container {
+    padding: 20px;
+    margin: 60px auto 60px auto; /* Margin top to avoid overlap with fixed nav */
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* Buttons */
+button {
+    background-color: #4682B4; /* Light Blue */
+    color: #FFFFFF; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* Links */
+a {
+    color: #87CEEB; /* Sky Blue for links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:visited {
+    color: #6A5ACD; /* Slate Blue for visited links */
+}
+
+a:hover {
+    color: #E0FFFF; /* Light Cyan for hover effect */
+}
+
+
+button:hover {
+    background-color: #1E90FF; /* Dodger Blue for hover effect */
+}
+
+/* Footer */
+footer {
+    background-color: #003366; /* Darker blue for footer background */
+    color: #FFFFFF; /* White text */
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
